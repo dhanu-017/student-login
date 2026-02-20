@@ -58,6 +58,9 @@ document.getElementById("studentForm").addEventListener("submit", function(event
     let mobile = document.getElementById("number").value;
     let email = document.getElementById("email").value;
 
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
+
     let course = document.getElementById("course").value;
     if (course === "other") {
         course = document.getElementById("otherCourse").value;
@@ -96,6 +99,8 @@ document.getElementById("studentForm").addEventListener("submit", function(event
         dob,
         mobile,
         email,
+        username,
+        password,
         course,
         branch,
         college,
@@ -103,6 +108,11 @@ document.getElementById("studentForm").addEventListener("submit", function(event
         permanentAddress,
         presentAddress
     };
+
+    // SAVE DATA
+    localStorage.setItem("studentData", JSON.stringify(student));
+
+    alert("Registration Successful! Now login.");
 
     console.log("Student Registration Data:");
     console.log(student);
