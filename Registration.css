@@ -1,0 +1,95 @@
+/* Page background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Form container */
+form {
+    background: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h3 {
+    color: #34495e;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Focus effect */
+input:focus, select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Checkbox spacing */
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Skills section spacing */
+h3 + input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+/* Button (add later if needed) */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}
+input[type="submit"] {
+     width: 200px;
+     padding: 12px;
+     background-color: #3498db;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     font-size: 16px;
+     cursor: pointer;
+     margin-top: 20px;
+}
+input[type="submit"] {
+    background-color: #3498db;
+}
