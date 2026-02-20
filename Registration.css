@@ -38,6 +38,7 @@ input[type="text"],
 input[type="email"],
 input[type="number"],
 input[type="date"],
+input[type="password"],
 select {
     width: 100%;
     padding: 10px;
@@ -45,7 +46,6 @@ select {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box;
 }
 
 /* Focus effect */
@@ -54,21 +54,11 @@ input:focus, select:focus {
     outline: none;
 }
 
-/* Checkbox spacing */
-input[type="checkbox"] {
-    margin-right: 8px;
-}
-
-/* Skills section spacing */
-h3 + input[type="checkbox"] {
-    margin-top: 10px;
-}
-
-/* Button (add later if needed) */
-button {
-    width: 100%;
+/* Button */
+input[type="submit"] {
+    width: 200px;
     padding: 12px;
-    background: #3498db;
+    background-color: #3498db;
     color: white;
     border: none;
     border-radius: 5px;
@@ -76,20 +66,6 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background: #2980b9;
-}
-input[type="submit"] {
-     width: 200px;
-     padding: 12px;
-     background-color: #3498db;
-     color: white;
-     border: none;
-     border-radius: 5px;
-     font-size: 16px;
-     cursor: pointer;
-     margin-top: 20px;
-}
-input[type="submit"] {
-    background-color: #3498db;
+input[type="submit"]:hover {
+    background-color: #2980b9;
 }
