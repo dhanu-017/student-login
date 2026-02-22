@@ -112,7 +112,7 @@
     <label>Password:</label>
     <input id="p1" type="password" required>
 
-    <button type="submit">Submit</button>
+    <button type="submit">Login</button>
 
     <a href="Registration.html">Register</a>
 
@@ -135,10 +135,10 @@ document.getElementById("loginForm").addEventListener("submit", function(event){
     }
 
     if(username === storedData.username && password === storedData.password){
-        alert("Login Successful ✅");
+        alert("Login Successful");
     }
     else{
-        alert("Invalid Username or Password ❌");
+        alert("Invalid Username or Password");
     }
 
 });
