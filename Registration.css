@@ -29,7 +29,6 @@ label {
     font-weight: bold;
 }
 
-/* Inputs and Select */
 input[type="text"],
 input[type="email"],
 input[type="number"],
@@ -51,7 +50,6 @@ select:focus {
     outline: none;
 }
 
-/* Submit Button */
 input[type="submit"] {
     width: 100%;
     padding: 12px;
@@ -63,18 +61,15 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-/* Hover Effect */
 input[type="submit"]:hover {
     background-color: #2980b9;
 }
 
-/* Disabled Register Button */
 input[type="submit"]:disabled {
     background-color: #95a5a6;
     cursor: not-allowed;
 }
 
-/* Normal Buttons */
 button {
     padding: 8px 12px;
     background-color: #3498db;
@@ -88,14 +83,12 @@ button:hover {
     background-color: #2980b9;
 }
 
-/* Remove spinner arrows (for number inputs) */
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 
-/* Education block style */
 #educationContainer div {
     background: #f9fbfd;
     padding: 10px;
@@ -104,7 +97,6 @@ input[type=number]::-webkit-outer-spin-button {
     border: 1px solid #e0e0e0;
 }
 
-/* Popup styling */
 .popup {
     display: none;
     position: fixed;
@@ -125,10 +117,8 @@ input[type=number]::-webkit-outer-spin-button {
     text-align: center;
 }
 
-/* Aadhaar Field Only */
-
 #aadhar {
-    letter-spacing: 2px;   /* makes digits spaced nicely */
+    letter-spacing: 2px;
 }
 
 #aadhar.valid {
